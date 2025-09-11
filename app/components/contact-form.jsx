@@ -20,7 +20,6 @@ export default function ContactForm() {
     try {
       const response = await submitContactForm(formData)
       setMessage(response.message)
-      // Reset form
       event.target.reset()
     } catch (error) {
       setMessage("Something went wrong. Please try again.")
@@ -57,6 +56,20 @@ export default function ContactForm() {
             placeholder="your.email@example.com"
           />
         </div>
+        <div>
+          <label htmlFor="contact" className="block text-sm font-medium mb-2">
+            Contact No.
+          </label>
+          <Input
+            id="contact"
+            name="contact"
+            type="tel"
+            required
+            className="border-border/40 focus:border-primary"
+            placeholder="+91 12345 67890"
+          />
+        </div>
+
         <div>
           <label htmlFor="message" className="block text-sm font-medium mb-2">
             Message
