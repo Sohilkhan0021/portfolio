@@ -8,6 +8,7 @@ export default function ProjectCard({ title, description, image, link, tags }) {
     <Card className="overflow-hidden group transition-all duration-300 hover:shadow-xl hover:-translate-y-1 border border-border/40 hover:border-primary/20">
       <div className="relative aspect-video overflow-hidden">
         <Image
+        href={link}
           src={image || "/placeholder.svg"}
           alt={title}
           fill
@@ -33,7 +34,7 @@ export default function ProjectCard({ title, description, image, link, tags }) {
           href={link}
           target="_blank"
           className="inline-flex items-center gap-2 text-sm text-primary hover:underline">
-          <Github className="h-4 w-4" />Read More</Link>
+          <Github className="h-4 w-4" />SEE PEOJECT</Link>
       </CardFooter>
     </Card>
   )
