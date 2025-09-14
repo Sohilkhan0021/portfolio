@@ -77,8 +77,6 @@ export default function Page() {
             </div>
           </div>
         </section>
-
-        {/* Projects */}
         <section id="projects" className="py-3 md:py-6 lg:py-12">
           <div className="container">
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center text-blue-600 mb-12">Projects</h2>
@@ -92,8 +90,6 @@ export default function Page() {
             </div>
           </div>
         </section>
-
-        {/* Experience */}
         <section id="experience" className="py-3 md:py-6 lg:py-12 bg-gray-50 dark:bg-gray-900">
           <div className="container px-4 md:px-6">
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center text-blue-600 mb-12">Work Experience</h2>
