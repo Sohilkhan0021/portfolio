@@ -43,7 +43,6 @@ export default function Page() {
       </header>
 
       <main className="container px-4 md:px-6">
-        {/* About */}
         <section id="about" className="py-3 md:py-6 lg:py-12">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-6 text-center">
